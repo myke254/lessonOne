@@ -1,0 +1,15 @@
+D:\InternWork\introduction\CrudOps\CRUDOPS\lessonOne\bin\Debug\net6.0\lessonOne.exe
+D:\InternWork\introduction\CrudOps\CRUDOPS\lessonOne\bin\Debug\net6.0\lessonOne.deps.json
+D:\InternWork\introduction\CrudOps\CRUDOPS\lessonOne\bin\Debug\net6.0\lessonOne.runtimeconfig.json
+D:\InternWork\introduction\CrudOps\CRUDOPS\lessonOne\bin\Debug\net6.0\lessonOne.dll
+D:\InternWork\introduction\CrudOps\CRUDOPS\lessonOne\bin\Debug\net6.0\lessonOne.pdb
+D:\InternWork\introduction\CrudOps\CRUDOPS\lessonOne\obj\Debug\net6.0\lessonOne.csproj.AssemblyReference.cache
+D:\InternWork\introduction\CrudOps\CRUDOPS\lessonOne\obj\Debug\net6.0\lessonOne.GeneratedMSBuildEditorConfig.editorconfig
+D:\InternWork\introduction\CrudOps\CRUDOPS\lessonOne\obj\Debug\net6.0\lessonOne.AssemblyInfoInputs.cache
+D:\InternWork\introduction\CrudOps\CRUDOPS\lessonOne\obj\Debug\net6.0\lessonOne.AssemblyInfo.cs
+D:\InternWork\introduction\CrudOps\CRUDOPS\lessonOne\obj\Debug\net6.0\lessonOne.csproj.CoreCompileInputs.cache
+D:\InternWork\introduction\CrudOps\CRUDOPS\lessonOne\obj\Debug\net6.0\lessonOne.dll
+D:\InternWork\introduction\CrudOps\CRUDOPS\lessonOne\obj\Debug\net6.0\refint\lessonOne.dll
+D:\InternWork\introduction\CrudOps\CRUDOPS\lessonOne\obj\Debug\net6.0\lessonOne.pdb
+D:\InternWork\introduction\CrudOps\CRUDOPS\lessonOne\obj\Debug\net6.0\lessonOne.genruntimeconfig.cache
+D:\InternWork\introduction\CrudOps\CRUDOPS\lessonOne\obj\Debug\net6.0\ref\lessonOne.dll
