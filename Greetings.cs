@@ -9,7 +9,7 @@ public class Greetings : IGreetings
     private int today = DateTime.Now.Year;
     private bool isnum;
 
-     MyConstants myConstants = new MyConstants();
+    MyConstants myConstants = new MyConstants();
 
     public Greetings(string pName = "", int pYOB = 0, string? pYobstring = "", bool pIsnum = false)
     {
@@ -25,7 +25,7 @@ public class Greetings : IGreetings
     start:
         name = Console.ReadLine();
         Regex rx = new Regex(@"^[A-Za-z ]+$");
-        if (!rx.IsMatch(name!)||string.IsNullOrWhiteSpace(name))
+        if (!rx.IsMatch(name!) || string.IsNullOrWhiteSpace(name))
         {
             Console.WriteLine(myConstants.invalidName);
             goto start;
@@ -40,7 +40,7 @@ public class Greetings : IGreetings
         yobString = Console.ReadLine()!;
         isnum = int.TryParse(yobString, out YOB);
 
-        if (!isnum || YOB < 0 || YOB > today || YOB == today)
+        if (!isnum || YOB < 0 || YOB >= today)
         {
             Console.WriteLine(myConstants.invalidYear(name!));
             goto start;
@@ -54,6 +54,6 @@ public class Greetings : IGreetings
 
         int age = (today - yearOfBirth);
         string myAge = myConstants.ageMessage(age);
-        Console.WriteLine(myConstants.finalMessage(name!,myAge));
+        Console.WriteLine(myConstants.finalMessage(name!, myAge));
     }
 }
