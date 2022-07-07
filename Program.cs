@@ -6,7 +6,7 @@ do
 } while (string.IsNullOrEmpty(greetings.name));
 do
 {
-   greetings.getYOB(greetings.name);
-} while (greetings.YOB == 0);
+   greetings.GetYOB(greetings.name);
+} while (greetings.yob == 0);
 
-greetings.getAge(greetings.YOB);
+greetings.GetAge(greetings.yob);

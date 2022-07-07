@@ -1,7 +1,7 @@
 
 public interface IGreetings
 {
-    void getAge(int yearOfBirth);
+    void GetAge(int yearOfBirth);
     void GetName();
-    void getYOB(string myName);
+    void GetYOB(string myName);
 }

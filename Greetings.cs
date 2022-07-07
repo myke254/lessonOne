@@ -4,17 +4,17 @@ using lessonOne;
 public class Greetings : IGreetings
 {
     public string? name;
-    public int YOB;
+    public int yob;
     private string? yobString;
     private int today = DateTime.Now.Year;
     private bool isnum;
 
     MyConstants myConstants = new MyConstants();
 
-    public Greetings(string pName = "", int pYOB = 0, string? pYobstring = "", bool pIsnum = false)
+    public Greetings(string pName = "", int pyob = 0, string? pYobstring = "", bool pIsnum = false)
     {
         this.name = pName;
-        this.YOB = pYOB;
+        this.yob = pyob;
         this.yobString = pYobstring;
         this.isnum = pIsnum;
     }
@@ -32,24 +32,24 @@ public class Greetings : IGreetings
         }
     }
 
-    public void getYOB(string myName)
+    public void GetYOB(string myName)
     {
         Console.WriteLine(myConstants.AskForYOB(name!));
 
     start:
         yobString = Console.ReadLine()!;
-        isnum = int.TryParse(yobString, out YOB);
+        isnum = int.TryParse(yobString, out yob);
 
-        if (!isnum || YOB < 0 || YOB >= today)
+        if (!isnum || yob < 0 || yob >= today)
         {
             Console.WriteLine(myConstants.invalidYear(name!));
             goto start;
         }
 
-        YOB = int.Parse(yobString!);
+        yob = int.Parse(yobString!);
     }
 
-    public void getAge(int yearOfBirth)
+    public void GetAge(int yearOfBirth)
     {
 
         int age = (today - yearOfBirth);
