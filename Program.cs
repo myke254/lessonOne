@@ -1,4 +1,5 @@
 ﻿Greetings greetings = new Greetings();
+
 do
 {
     
@@ -10,3 +11,4 @@ do
 } while (greetings.yob == 0);
 
 greetings.GetAge(greetings.yob);
+greetings.LuckyNumber(greetings.name);
